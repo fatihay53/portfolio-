@@ -4,7 +4,7 @@ import Hero1 from '../../components/Hero1'
 // import Exprience from '../../components/exprience'
 import PortfolioSub from '../../components/porfolioSub'
 import ContactArea from '../../components/ContactArea'
-import LatestBlog from '../../components/LatestNews'
+// import LatestBlog from '../../components/LatestNews'
 import Footer from '../../components/Footer'
 import TestSlider from '../../components/Testimonial'
 import Logo from '../../images/logo.png'
@@ -20,7 +20,7 @@ const HomePage =() => {
             <PortfolioSub/>
             <TestSlider/>
             <ContactArea/>
-            <LatestBlog/>
+            {/* <LatestBlog/> */}
             <Footer ftLogo={Logo}/>
         </Fragment>
     )
