@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 // Route Setting
 import HomePage from "../HomePage";
-import HomePage2 from "../HomePage2";
+// import HomePage2 from "../HomePage2";
 
 import AboutPage from "../AboutPage";
 import PorfolioGrid from "../PorfolioGrid";
