@@ -4,7 +4,7 @@ import './style.css'
 
 import profolio1 from '../../images/protfolio/goldiemohr.jpg'
 import profolio2 from '../../images/protfolio/library.png'
-import profolio3 from '../../images/protfolio/img-3.jpg'
+import profolio3 from '../../images/protfolio/workout.jpg'
 import profolio4 from '../../images/protfolio/essential.jpeg'
 
 const PortfolioSub = (props) => {
@@ -33,10 +33,10 @@ const PortfolioSub = (props) => {
                                         </div>
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src={profolio2} alt="" />
+                                                <img src={profolio3} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
-                                                <h2>3D Project</h2>
+                                                <h2 style={{color:"#0c0b48"}}>Workout Tracker</h2>
                                                 <span>Illustration . Art Direction</span>
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
@@ -68,9 +68,7 @@ const PortfolioSub = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="protfolio-btn">
-                                <Link to="/">See More Work...</Link>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>

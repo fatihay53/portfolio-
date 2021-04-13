@@ -17,7 +17,7 @@ const Footer = (props) => {
                             <div className="wpo-footer-menu">
                                 <ul>
                                     <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/protfolio">Portfolio</Link></li>
+                                    <li><Link to="/protfolioGrid">Portfolio</Link></li>
                                     <li><Link to="/blog">Blog</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
                                 </ul>
@@ -26,9 +26,13 @@ const Footer = (props) => {
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                             <div className="wpo-footer-social">
                                 <ul>
+{/* 
                                     <li><Link to="/"><i className="fa fa-facebook"></i></Link></li>
                                     <li><Link to="/"><i className="fa fa-twitter" aria-hidden="true"></i></Link></li>
-                                    <li><Link to="/"><i className="fa fa-instagram" aria-hidden="true"></i></Link></li>
+                                    <li><Link to="/"><i className="fa fa-instagram" aria-hidden="true"></i></Link></li> */}
+                                    <li><a target="_blank" href="https://www.linkedin.com/in/fatih-sultan-ay-211689181/"> <i className="fa fa-linkedin"></i> </a></li>
+                                    <li><a target="_blank" href="https://github.com/fatihay53"> <i className="fa fa-github"></i> </a></li>
+                                    <li><a target="_blank" href="https://twitter.com/fatihsultanay"> <i className="fa fa-twitter"></i> </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -36,7 +40,7 @@ const Footer = (props) => {
                 </div>
             </div>
             <div className={`wpo-footer-bottom ${props.Fbclass}`}>
-                <span>© 2020 Follio. All rights reserved</span>
+                <span>© 2020 Ay Design. All rights reserved</span>
             </div>
         </div>
     )

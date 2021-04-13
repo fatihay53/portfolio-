@@ -83,17 +83,7 @@
     padding: 1px;
 }
 
-.protfolio-btn a {
-    font-size: 40px;
-    color: #fff;
-    font-weight: 700;
 
-}
-
-.protfolio-btn {
-    text-align: right;
-    margin-top: -45px;
-}
 
 @media(max-width: 991px) {
     .wpo-protfolio-single, .wpo-blog-img {
@@ -110,14 +100,5 @@
         margin-top: 0;
     }
 
-    .protfolio-btn {
-        text-align: center;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width: 590px) {
-    .protfolio-btn a {
-        font-size: 20px;
-    }
+  
 }

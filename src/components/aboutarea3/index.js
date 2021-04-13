@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 
-import abimg from '../../images/about/about.jpg'
+import abimg from '../../images/slider/portfolio.png'
 
 import {Link} from 'react-router-dom'
 
@@ -13,7 +13,7 @@ const AboutArea3 = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
-                        <div className="about-s2-img">
+                        <div className="about-s2-img" style={{textAlign:"center"}}>
                             <img src={abimg} alt=""/>
                         </div>
                     </div>
@@ -26,7 +26,10 @@ const AboutArea3 = (props) => {
                                 <li>Best Price in Marketplace.</li>
                                 <li>Unique Design and Development.</li>
                             </ul>
-                            <Link to="/" className="theme-btn-s2">Download CV</Link>
+
+                        
+                            <a target="_blank" href="https://github.com/fatihay53/portfolio-/files/6300677/resume.pdf" className="theme-btn-s2">Download CV</a>
+
                         </div>
                     </div>
                 </div>

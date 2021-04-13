@@ -28,35 +28,35 @@ const ContactArea = (props) => {
                                 <div className="col col-lg-6 col-md-12 col-12">
                                     <div className="wpo-contact-info">
                                         <div className="info-item">
-                                            <h2>25 North Street,Dubai</h2>
+                                            <h2>Ottawa,ON</h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img src={contact1} alt=""/>
                                                 </div>
                                                 <div className="info-text">
-                                                    <span>Office Address</span>
+                                                    <span>Address</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="info-item">
-                                            <h2>info@edefytheme.com</h2>
+                                            <h2>f.sultanay@gmail.com</h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img src={contact2} alt=""/>
                                                 </div>
                                                 <div className="info-text">
-                                                    <span>Official Mail</span>
+                                                    <span> Mail</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="info-item">
-                                            <h2>+91 256-987-239</h2>
+                                            <h2>+1 343 989 4824</h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img src={contact3} alt=""/>
                                                 </div>
                                                 <div className="info-text">
-                                                    <span>Official Phone</span>
+                                                    <span> Phone</span>
                                                 </div>
                                             </div>
                                         </div>

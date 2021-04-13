@@ -6,7 +6,7 @@ import PortfolioSub from '../../components/porfolioSub'
 import ContactArea from '../../components/ContactArea'
 // import LatestBlog from '../../components/LatestNews'
 import Footer from '../../components/Footer'
-import TestSlider from '../../components/Testimonial'
+// import TestSlider from '../../components/Testimonial'
 import Logo from '../../images/logo.png'
 import AboutWrap from '../../components/about'
 
@@ -18,7 +18,7 @@ const HomePage =() => {
             {/* <Exprience/> */}
             <AboutWrap/>
             <PortfolioSub/>
-            <TestSlider/>
+            {/* <TestSlider/> */}
             <ContactArea/>
             {/* <LatestBlog/> */}
             <Footer ftLogo={Logo}/>

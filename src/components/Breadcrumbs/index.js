@@ -2,12 +2,12 @@ import React from 'react'
 import './style.css'
 import {Link} from 'react-router-dom'
 
-import shape1 from '../../images/shape/shape-7.png'
-import shape2 from '../../images/shape/shape-8.png'
-import shape3 from '../../images/shape/shape-3.png'
-import shape4 from '../../images/shape/shape-5.png'
-import shape5 from '../../images/shape/shape-6.png'
-import shape6 from '../../images/shape/shape-4.png'
+// import shape1 from '../../images/shape/shape-7.png'
+// import shape2 from '../../images/shape/shape-8.png'
+// import shape3 from '../../images/shape/shape-3.png'
+// import shape4 from '../../images/shape/shape-5.png'
+// import shape5 from '../../images/shape/shape-6.png'
+// import shape6 from '../../images/shape/shape-4.png'
 
 const Breadcrumbs = (props) => {
     return(
@@ -23,7 +23,7 @@ const Breadcrumbs = (props) => {
                     </div>
                 </div>
             </div> 
-            <div className="shape">
+            {/* <div className="shape">
                 <img src={shape1} alt=""/>
             </div>
             <div className="shape7">
@@ -40,7 +40,7 @@ const Breadcrumbs = (props) => {
             </div>
             <div className="shape12">
                 <img src={shape6} alt=""/>
-            </div>
+            </div> */}
         </section>
     )
 }
