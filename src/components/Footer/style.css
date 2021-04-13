@@ -1,5 +1,5 @@
 .wpo-footer-area {
-    background: #121151;
+    background: #121151 !important;
 }
 
 .wpo-footer-top {
@@ -41,7 +41,7 @@
     width: 80px;
     height: 80px;
     line-height: 80px;
-    border: 1px solid #3840a9;
+    border: 1px solid #fff !important;
     text-align: center;
     border-radius: 50%;
     margin-right: 20px;
@@ -61,7 +61,7 @@
     margin: auto;
     top: 15px;
     position: relative;
-    color: #385c8e;
+    color: #fff;
 }
 
 .wpo-footer-social ul li:hover a {
@@ -69,7 +69,7 @@
 }
 
 .wpo-footer-social ul li:nth-child(2) a {
-    color: #03a9f4;
+    color: #fff;
 }
 
 .wpo-footer-social ul li:nth-child(3) a i {
@@ -83,13 +83,14 @@
 .wpo-footer-bottom,
 .wpo-footer-bottom5 {
     padding: 30px 0;
-    background: #0d0c4c;
+    background: #0d0c4c !important;
     text-align: center;
+
 }
 
 .wpo-footer-bottom span,
 .wpo-footer-bottom5 span {
-    color: #fff;
+    color: #fff !important;
 }
 
 @media(max-width: 1200px) {
@@ -166,7 +167,7 @@
 }
 
 .wpo-footer-area3 .wpo-footer-menu ul li a {
-    color: #131058;
+    color: #fff;
 }
 
 .wpo-footer-area3 .wpo-footer-bottom {

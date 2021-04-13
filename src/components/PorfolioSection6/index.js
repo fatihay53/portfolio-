@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import Gallery_1 from '../../images/protfolio/img-5.jpg';
-import Gallery_2 from '../../images/protfolio/img-6.jpg';
-import Gallery_3 from '../../images/protfolio/img-7.jpg';
-import Gallery_4 from '../../images/protfolio/img-8.jpg';
-import Gallery_5 from '../../images/protfolio/img-17.jpg';
-import Gallery_6 from '../../images/protfolio/img-6.jpg';
+import Gallery_1 from '../../images/protfolio/goldiemohr.jpg';
+import Gallery_2 from '../../images/protfolio/library.png';
+import Gallery_3 from '../../images/protfolio/workout.jpg';
+import Gallery_4 from '../../images/protfolio/essential.jpeg';
+
 import './style.css'
 import {Link} from 'react-router-dom'
 
@@ -81,7 +80,7 @@ class Portfolio extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12 sortable-gallery">
-                            <div className="gallery-filters">
+                            {/* <div className="gallery-filters">
                                 <ul>
                                     <li><Link data-filter="*" to="/" className="current" onClick={allElement}>All</Link></li>
                                     <li><Link data-filter=".Web-Design" to="/" onClick={webDesign}>Web Design</Link></li>
@@ -89,7 +88,7 @@ class Portfolio extends Component {
                                     <li><Link data-filter=".Web-Application" to="/" onClick={webApp}>Web Application</Link></li>               
                                     <li><Link data-filter=".Photography" to="/" onClick={Photography}>Photography</Link></li> 
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary ">
                                
                                
@@ -104,9 +103,9 @@ class Portfolio extends Component {
                                             <img src={Gallery_1} alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link to="/protfolioGrid">View Work</Link>
+                                            <h2>Goldie Mohr</h2>
+                                         
+                                            <Link to="/projectDetails">View Work</Link>
                                         </div>
                                     </div>  
                                 </div>
@@ -122,9 +121,9 @@ class Portfolio extends Component {
                                             <img src={Gallery_2} alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link to="/protfolioGrid">View Work</Link>
+                                            <h2>Library</h2>
+                                      
+                                            <Link to="/projectDetails">View Work</Link>
                                         </div>
                                     </div>  
                                 </div>
@@ -136,9 +135,9 @@ class Portfolio extends Component {
                                             <img src={Gallery_3} alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link to="/protfolioGrid">View Work</Link>
+                                            <h2 style={{color:"#070640"}}>Workout</h2>
+                                     
+                                            <Link to="/projectDetails">View Work</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -150,45 +149,15 @@ class Portfolio extends Component {
                                             <img src={Gallery_4} alt="" className="img img-responsive"/>
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link to="/protfolioGrid">View Work</Link>
+                                            <h2>Essential</h2>
+                                          
+                                            <Link to="/projectDetails">View Work</Link>
                                         </div>
                                     </div>
                                 </div>
-                                <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
-                                    <div className="wpo-protfolio-single">
-                                        <div className="wpo-protfolio-img">
-                                            <img src={Gallery_5} alt="" className="img img-responsive"/>
-                                        </div>
-                                        <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link to="/protfolioGrid">View Work</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
-                                    <div className="wpo-protfolio-single">
-                                        <div className="wpo-protfolio-img">
-                                            <img src={Gallery_6} alt="" className="img img-responsive"/>
-                                        </div>
-                                        <div className="wpo-protfolio-text">
-                                            <h2>Minimalism</h2>
-                                            <span>Illustration . Art Direction</span>
-                                            <Link to="/protfolioGrid">View Work</Link>
-                                        </div>
-                                    </div>
-                                </div>
+                           
                             </div>
-                            <div className="protfolio-btn">
-                                <Link to="/protfolioGrid" className="theme-btn-s2">Load More</Link>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

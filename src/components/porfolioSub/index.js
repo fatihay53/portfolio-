@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './style.css'
 
 import profolio1 from '../../images/protfolio/goldiemohr.jpg'
-import profolio2 from '../../images/protfolio/library.png'
+import profolio2 from '../../images/protfolio/goldiemohr.jpg'
 import profolio3 from '../../images/protfolio/workout.jpg'
 import profolio4 from '../../images/protfolio/essential.jpeg'
 

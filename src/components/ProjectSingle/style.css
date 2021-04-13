@@ -41,7 +41,7 @@
 .wpo-project-details-text h2,
 .wpo-project-details-text-3 h2 {
     font-size: 22px;
-    color: #081b8d;
+    color: #ffffff;
     margin-bottom: 0;
 }
 
@@ -57,6 +57,7 @@
 
 .wpo-p-details-section p {
     margin-bottom: 30px;
+    color: white;
 }
 
 .wpo-p-details-quote {
@@ -130,4 +131,20 @@
         left: 12%;
         top: 17%;
     }
+}
+
+.form-submit{
+    text-align: center;
+}
+
+.theme-btn {
+    background: #fe3e57;
+    color: #fff;
+    border: 1px solid #fe3e57;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.wpo-project-details-area{
+    background-color: #070640;
 }

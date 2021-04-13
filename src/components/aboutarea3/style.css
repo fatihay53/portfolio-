@@ -1,3 +1,6 @@
+.wpo-about-area-3{
+    background-color: #070640;
+}
 .wpo-about-area-3 .about-s2-img,
 .wpo-about-area-5 .about-s2-img {
     margin-top: 0;
@@ -12,13 +15,13 @@
 
 .wpo-about-area-3 .wpo-about-text h2,
 .wpo-about-area-5 .wpo-about-text h2 {
-    color: #131058;
+    color: #fff;
     margin-top: 0;
 }
 
 .wpo-about-area-3 .wpo-about-text p,
 .wpo-about-area-5 .wpo-about-text p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-bottom: 30px;
 }
 
@@ -26,6 +29,7 @@
 .wpo-about-area-5 .wpo-about-text ul li {
     padding-bottom: 15px;
     padding-left: 20px;
+    color: rgb(255, 255, 255);
     position: relative;
 }
 

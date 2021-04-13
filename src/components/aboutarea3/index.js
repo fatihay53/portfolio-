@@ -3,8 +3,6 @@ import './style.css'
 
 import abimg from '../../images/slider/portfolio.png'
 
-import {Link} from 'react-router-dom'
-
 const AboutArea3 = (props) => {
 
   return (

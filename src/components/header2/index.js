@@ -18,7 +18,7 @@ const Header = (props) => {
                 
                         </li>
                         <li><Link to="/about" title="">About</Link></li>
-                        <li><Link  to="/protfolioGrid">Portfolio Grid</Link>
+                        <li><Link  to="/protfolioGrid">Portfolio</Link>
                   
                         </li>
                         <li><Link to="/projectDetails">Project Details</Link>

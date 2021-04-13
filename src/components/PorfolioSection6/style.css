@@ -226,18 +226,7 @@
   max-width: 90.66%;
 }
 
-.wpo-protfolio-area-8 .protfolio-btn a{
-  font-size: 16px;
-}
 
-.wpo-protfolio-area-7 .protfolio-btn a{
-  font-size: 16px;
-}
-
-.wpo-protfolio-area-6 .protfolio-btn a{
-  font-size: 16px;
-  color: #fff;
-}
 
 @media(max-width:991px){
   .payra-masonary .grid.active, .payra-masonary .grid.open{
