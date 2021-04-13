@@ -5,7 +5,8 @@ import classnames from 'classnames';
 import Abmain from '../../components/aboutbt'
 import Certificate from '../Certificate'
 import Skill from '../../components/Skill'
-import SocialBr from '../../components/Social'
+import SkillHard from '../../components/Skill hard'
+
 // import AbService from '../../components/Abservice'
 
 import SectionTitle from '../SectonTitle';
@@ -37,23 +38,16 @@ const AboutWrap = (props) => {
                                 className={classnames({ active: activeTab === '5' })}
                                 onClick={() => { toggle('5'); }}
                             >
-                              Skill
+                              Soft Skills
                             </NavLink>
                         </NavItem>
-                        {/* <NavItem>
-                            <NavLink
-                                className={classnames({ active: activeTab === '2' })}
-                                onClick={() => { toggle('2'); }}
-                            >
-                                Services
-                            </NavLink>
-                        </NavItem> */}
+                 
                         <NavItem>
                             <NavLink
                                 className={classnames({ active: activeTab === '3' })}
                                 onClick={() => { toggle('3'); }}
                             >
-                               Social Media
+                               Hard Skills
                             </NavLink>
                         </NavItem>
                         <NavItem>
@@ -70,11 +64,8 @@ const AboutWrap = (props) => {
                             <TabPane tabId="1">
                                 <Abmain/>
                             </TabPane>
-                            {/* <TabPane tabId="2">
-                                <AbService/>
-                            </TabPane> */}
-                            <TabPane tabId="3">
-                                <SocialBr/>
+                                <TabPane tabId="3">
+                                <SkillHard/>
                             </TabPane>
                             <TabPane tabId="4">
                                 <Certificate/>
