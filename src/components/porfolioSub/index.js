@@ -1,14 +1,14 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './style.css'
 
-import profolio1 from '../../images/protfolio/img-1.jpg'
-import profolio2 from '../../images/protfolio/img-2.jpg'
+import profolio1 from '../../images/protfolio/goldiemohr.jpg'
+import profolio2 from '../../images/protfolio/library.png'
 import profolio3 from '../../images/protfolio/img-3.jpg'
-import profolio4 from '../../images/protfolio/img-4.jpg'
+import profolio4 from '../../images/protfolio/essential.jpeg'
 
-const PortfolioSub = ( props ) => {
-    return(
+const PortfolioSub = (props) => {
+    return (
         <div className={`wpo-protfolio-area section-padding ${props.subclass}`}>
             <div className="container">
                 <div className="col-12">
@@ -24,17 +24,16 @@ const PortfolioSub = ( props ) => {
                                     <div className="wpo-protfolio-left">
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src={profolio1} alt=""/>
+                                                <img src={profolio2} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
-                                                <h2>Goldie Mohr</h2>
-                                                <span>Illustration . Art Direction</span>
+                                                <h2>Library Management System</h2>
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
                                         </div>
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src={profolio2} alt=""/>
+                                                <img src={profolio2} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
                                                 <h2>3D Project</h2>
@@ -48,21 +47,21 @@ const PortfolioSub = ( props ) => {
                                     <div className="wpo-protfolio-right">
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src={profolio3} alt=""/>
+                                                <img src={profolio1} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
-                                                <h2>Abstract Art</h2>
-                                                <span>Illustration . Art Direction</span>
+                                                <h2>Goldie Mohr Ltd</h2>
+                                
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
                                         </div>
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src={profolio4} alt=""/>
+                                                <img src={profolio4} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
-                                                <h2>Modern BG</h2>
-                                                <span>Illustration . Art Direction</span>
+                                                <h2>Essential Finance</h2>
+                                                
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
                                         </div>
