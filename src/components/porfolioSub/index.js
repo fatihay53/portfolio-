@@ -27,7 +27,7 @@ const PortfolioSub = ( props ) => {
                                                 <img src={profolio1} alt=""/>
                                             </div>
                                             <div className="wpo-protfolio-text">
-                                                <h2>Minimalism</h2>
+                                                <h2>Goldie Mohr</h2>
                                                 <span>Illustration . Art Direction</span>
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>

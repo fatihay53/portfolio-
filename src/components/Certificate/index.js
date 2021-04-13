@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Awimg1 from '../../images/about/award.jpg'
-import Awimg2 from '../../images/about/award2.jpg'
-import Awimg3 from '../../images/about/award3.jpg'
-import Awimg4 from '../../images/about/award4.jpg'
+import Awimg1 from '../../images/about/bachelor.jpg'
+import Awimg2 from '../../images/about/autocad.jpeg'
+import Awimg3 from '../../images/about/language.jpeg'
+// import Awimg4 from '../../images/about/bachelor.jpg'
 
 const Certificate = () => {
     return(
@@ -25,11 +25,11 @@ const Certificate = () => {
                             <img src={Awimg3} alt=""/>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
+                    {/* <div className="col-md-6 col-sm-12">
                         <div className="wpo-award-img">
                             <img src={Awimg4} alt=""/>              
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
