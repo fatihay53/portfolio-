@@ -6,9 +6,17 @@ import './style.css'
 // import proj3 from '../../images/project/img-3.jpg'
 
 import proj1 from '../../images/protfolio/goldiemohr.jpg'
+import goldiealt1 from "../../images/protfolio/goldiealt1.png"
+import goldiealt2 from "../../images/protfolio/goldiealt2.png"
 import proj2 from '../../images/protfolio/library.png'
+import libraryalt1 from '../../images/protfolio/libraryalt1.png'
+import libraryalt2 from '../../images/protfolio/libraryalt2.png'
 import proj3 from '../../images/protfolio/workout.jpg'
+import workoutalt1 from '../../images/protfolio/workoutalt1.jpg'
+import workoutalt2 from '../../images/protfolio/workoutalt2.jpg'
 import proj4 from '../../images/protfolio/essential.jpeg'
+import esseantialalt1 from '../../images/protfolio/essentialalt1.jpeg'
+import esseantialalt2 from '../../images/protfolio/essentialalt2.jfif'
 
 const ProjectSingle = (props) => {
     return (
@@ -50,12 +58,12 @@ const ProjectSingle = (props) => {
                                 <p>This is a new and highly improved web page for the company Goldie Mohr Ltd. This web page features a home page, services & projects, product page, about us, careers and a contact page. This web page also includes a member log in, where employees are able to create a profile page for themselves and watch training videos and complete training quizzes. </p> <div className="row">
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="wpo-p-details-img">
-                                            <img src={proj1} alt="" />
+                                            <img src={goldiealt1} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="wpo-p-details-img">
-                                            <img src={proj1} alt="" />
+                                            <img src={goldiealt2} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -116,12 +124,12 @@ const ProjectSingle = (props) => {
                                 <div className="row">
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="wpo-p-details-img">
-                                            <img src={proj2} alt="" />
+                                            <img src={libraryalt1} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="wpo-p-details-img">
-                                            <img src={proj2} alt="" />
+                                            <img src={libraryalt2} alt="" />
                                         </div>
 
                                     </div>
@@ -184,12 +192,12 @@ const ProjectSingle = (props) => {
                                 <div className="row">
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="wpo-p-details-img">
-                                            <img src={proj3} alt="" />
+                                            <img src={workoutalt1} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="wpo-p-details-img">
-                                            <img src={proj3} alt="" />
+                                            <img src={workoutalt2} alt="" />
                                         </div>
 
                                     </div>
@@ -250,12 +258,12 @@ const ProjectSingle = (props) => {
                                 <div className="row">
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="wpo-p-details-img">
-                                            <img src={proj4} alt="" />
+                                            <img src={esseantialalt1} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-md-6 col-sm-6 col-12">
                                         <div className="wpo-p-details-img">
-                                            <img src={proj4} alt="" />
+                                            <img src={esseantialalt2} alt="" />
                                         </div>
 
                                     </div>

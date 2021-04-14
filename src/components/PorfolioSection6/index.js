@@ -5,7 +5,7 @@ import Gallery_3 from '../../images/protfolio/workout.jpg';
 import Gallery_4 from '../../images/protfolio/essential.jpeg';
 
 import './style.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Portfolio extends Component {
 
@@ -14,7 +14,7 @@ class Portfolio extends Component {
         onPrintDesign: false,
         onWebApp: false,
         onPhotography: false,
-        isOpen : false,
+        isOpen: false,
     }
 
     render() {
@@ -78,7 +78,12 @@ class Portfolio extends Component {
         return (
             <section id="protfolio" className="gallery-section wpo-protfolio-area-7 section-padding">
                 <div className="container">
+                    <div className="row justify-content-md-center">
+                        <h1  style={{color:'white',marginBottom:"5%"}}>Projects</h1>
+                    </div>
                     <div className="row">
+
+
                         <div className="col col-xs-12 sortable-gallery">
                             {/* <div className="gallery-filters">
                                 <ul>
@@ -90,74 +95,74 @@ class Portfolio extends Component {
                                 </ul>
                             </div> */}
                             <div className="gallery-container gallery-fancybox masonry-gallery payra-masonary ">
-                               
-                               
-                                <div className={this.state.onWebDesign ? "grid active" : "grid" 
+
+
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                        && this.state.onWebApp ? "grid active" : "grid"
+                                            && this.state.onPhotography ? "grid active" : "grid"
+                                                && this.state.isOpen ? "grid" : "grid open"}>
 
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src={Gallery_1} alt="" className="img img-responsive"/>
+                                            <img src={Gallery_1} alt="" className="img img-responsive" />
                                         </div>
                                         <div className="wpo-protfolio-text">
                                             <h2>Goldie Mohr</h2>
-                                         
+
                                             <Link to="/projectDetails">View Work</Link>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
-                               
-                                <div className={this.state.onWebDesign ? "grid active" : "grid" 
+
+                                <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                        && this.state.onWebApp ? "grid active" : "grid"
+                                            && this.state.onPhotography ? "grid active" : "grid"
+                                                && this.state.isOpen ? "grid" : "grid open"}>
 
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src={Gallery_2} alt="" className="img img-responsive"/>
+                                            <img src={Gallery_2} alt="" className="img img-responsive" />
                                         </div>
                                         <div className="wpo-protfolio-text">
                                             <h2>Library</h2>
-                                      
+
                                             <Link to="/projectDetails">View Work</Link>
                                         </div>
-                                    </div>  
+                                    </div>
                                 </div>
                                 <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
+                                        && this.state.isOpen ? "grid" : "grid open"}>
                                     <div className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src={Gallery_3} alt="" className="img img-responsive"/>
+                                            <img src={Gallery_3} alt="" className="img img-responsive" />
                                         </div>
                                         <div className="wpo-protfolio-text">
-                                            <h2 style={{color:"#070640"}}>Workout</h2>
-                                     
+                                            <h2 style={{ color: "#070640" }}>Workout</h2>
+
                                             <Link to="/projectDetails">View Work</Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
-                                    <div className="wpo-protfolio-single">
+                                        && this.state.isOpen ? "grid" : "grid open"}>
+                                    <div style={{marginTop:"10%"}} className="wpo-protfolio-single">
                                         <div className="wpo-protfolio-img">
-                                            <img src={Gallery_4} alt="" className="img img-responsive"/>
+                                            <img src={Gallery_4} alt="" className="img img-responsive" />
                                         </div>
                                         <div className="wpo-protfolio-text">
                                             <h2>Essential</h2>
-                                          
+
                                             <Link to="/projectDetails">View Work</Link>
                                         </div>
                                     </div>
                                 </div>
-                           
+
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>

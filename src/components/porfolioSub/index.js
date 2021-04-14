@@ -17,9 +17,11 @@ const PortfolioSub = (props) => {
                     </div>
                 </div>
                 <div className="row">
+        
                     <div className="col-12">
                         <div className="wpo-protfolio-item">
                             <div className="row">
+
                                 <div className="col col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div className="wpo-protfolio-left">
                                         <div className="wpo-protfolio-single">
@@ -36,8 +38,8 @@ const PortfolioSub = (props) => {
                                                 <img src={profolio3} alt="" />
                                             </div>
                                             <div className="wpo-protfolio-text">
-                                                <h2 style={{color:"#0c0b48"}}>Workout Tracker</h2>
-                                               
+                                                <h2 style={{ color: "#0c0b48" }}>Workout Tracker</h2>
+
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
                                         </div>
@@ -51,7 +53,7 @@ const PortfolioSub = (props) => {
                                             </div>
                                             <div className="wpo-protfolio-text">
                                                 <h2>Goldie Mohr Ltd</h2>
-                                
+
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
                                         </div>
@@ -61,14 +63,14 @@ const PortfolioSub = (props) => {
                                             </div>
                                             <div className="wpo-protfolio-text">
                                                 <h2>Essential Finance</h2>
-                                                
+
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                          
+
                         </div>
                     </div>
                 </div>
