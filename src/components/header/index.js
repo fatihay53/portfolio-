@@ -28,11 +28,7 @@ const Header = (props) => {
                         <li><Link to="/contact" title="">Contact</Link></li>
                     </ul>
                 </nav>
-                <div className="contact">
-                    <div className="cart-search-contact">
-                        <Link to="/contact" className="theme-btn">Contact</Link>
-                    </div>
-                </div>
+          
                 <div className="clearfix"></div>
                 
             </div>

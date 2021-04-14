@@ -1,6 +1,5 @@
 import React from "react";
 import Header2 from '../header2'
-import Logo from '../../images/logo2.png'
 
 export default function Navbar5() {
   const [scroll, setScroll] = React.useState(0);
@@ -16,7 +15,7 @@ export default function Navbar5() {
 
   return (
     <div className={className}>
-        <Header2 headerclass={'header-style-2 header-style-3'} Logo={Logo}/>
+        <Header2 headerclass={'header-style-2 header-style-3'} />
     </div>
   ); 
 }

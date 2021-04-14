@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './style.css'
 
 import profolio1 from '../../images/protfolio/goldiemohr.jpg'
-import profolio2 from '../../images/protfolio/goldiemohr.jpg'
+import profolio2 from '../../images/protfolio/library.png'
 import profolio3 from '../../images/protfolio/workout.jpg'
 import profolio4 from '../../images/protfolio/essential.jpeg'
 
@@ -37,7 +37,7 @@ const PortfolioSub = (props) => {
                                             </div>
                                             <div className="wpo-protfolio-text">
                                                 <h2 style={{color:"#0c0b48"}}>Workout Tracker</h2>
-                                                <span>Illustration . Art Direction</span>
+                                               
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
                                         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from '../header';
-import Logo from '../../images/logo.png'
+
 
 export default function Navbar() {
   const [scroll, setScroll] = React.useState(0);
@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <div className={className}>
-        <Header Logo={Logo}/>
+        <Header />
     </div>
   ); 
 }

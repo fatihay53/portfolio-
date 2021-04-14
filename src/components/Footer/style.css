@@ -41,7 +41,7 @@
     width: 80px;
     height: 80px;
     line-height: 80px;
-    border: 1px solid #fff !important;
+    border: 1px solid rgb(179, 0, 0) !important;
     text-align: center;
     border-radius: 50%;
     margin-right: 20px;
@@ -66,10 +66,23 @@
 
 .wpo-footer-social ul li:hover a {
     background: #fff;
+    
 }
 
-.wpo-footer-social ul li:nth-child(2) a {
-    color: #fff;
+.wpo-footer-social ul li:nth-child(1) a i{
+    background: -webkit-linear-gradient(#a329a6, #feb50b);
+    background: -o-linear-gradient(#a329a6, #feb50b);
+    background: linear-gradient(#a329a6, #feb50b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wpo-footer-social ul li:nth-child(2) a i{
+    background: -webkit-linear-gradient(#a329a6, #feb50b);
+    background: -o-linear-gradient(#a329a6, #feb50b);
+    background: linear-gradient(#a329a6, #feb50b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .wpo-footer-social ul li:nth-child(3) a i {

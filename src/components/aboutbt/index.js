@@ -17,7 +17,7 @@ const Abmain = () => {
                     <div className="wpo-about-text" style={{marginTop:"2%"}}>
                         <h2>I build what you request.</h2>
                         <p>My name is Fatih Ay. I am a full stack developer. I recently gratuated from Toronto University. </p>
-                             <Link to="/about" className="theme-btn">Lets Talk</Link>
+                             <Link to="/contact" className="theme-btn">Lets Talk</Link>
                     </div>
                 </div>
             </div>

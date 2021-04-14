@@ -21,8 +21,8 @@ const AboutArea3 = (props) => {
                             <p>My name is Fatih Ay. I am a full stack developer. I recently gratuated from Toronto University.  </p>
                             <ul>
                                 <li>High Quality Service</li>
-                                <li>Best Price in Marketplace.</li>
-                                <li>Unique Design and Development.</li>
+                                <li>Best Solution of client's request</li>
+                          
                             </ul>
 
                         
