@@ -3,7 +3,7 @@ import Navbar5 from '../../components/Navbar5'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import ContactPageSec from '../../components/ContactPageSec'
 import Footer from '../../components/Footer'
-import FtLogo from '../../images/logo2.png'
+import FtLogo from '../../images/logo.png'
 
 const ContactPage =() => {
     return(

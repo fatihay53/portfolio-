@@ -9,14 +9,16 @@ const Footer = (props) => {
                 <div className="wpo-footer-top">
                     <div className="row">
                         <div className="col-lg-2 col-md-3 col-sm-3 col-12">
-                    
+                        <div className="footer-logo">
+                                 <img src={props.ftLogo} alt=""/>
+                            </div>
                         </div>
                         <div className="col-lg-6 col-md-9 col-sm-9 col-12">
                             <div className="wpo-footer-menu">
                                 <ul>
                                     <li><Link to="/about">About</Link></li>
                                     <li><Link to="/protfolioGrid">Portfolio</Link></li>
-                                    <li><Link to="/blog">Blog</Link></li>
+                                  
                                     <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </div>

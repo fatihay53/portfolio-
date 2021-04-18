@@ -5,7 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs'
 import MySkill from '../../components/MySkill'
 import Footer from '../../components/Footer'
 import AboutArea3 from '../../components/aboutarea3'
-import FtLogo from '../../images/logo2.png'
+import FtLogo from '../../images/logo.png'
 
 const AboutPage =() => {
     return(

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from '../header';
+import Logo from '../../images/logo.png'
 
 
 export default function Navbar() {
@@ -16,7 +17,7 @@ export default function Navbar() {
 
   return (
     <div className={className}>
-        <Header />
+        <Header  Logo={Logo}/>
     </div>
   ); 
 }
